@@ -1,0 +1,63 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "今日日程"
+			}
+		},
+		{
+			"path": "pages/tasks/tasks",
+			"style": {
+				"navigationBarTitleText": "待办清单"
+			}
+		},
+		{
+			"path": "pages/tasks/form",
+			"style": {
+				"navigationBarTitleText": "新建任务"
+			}
+		},
+		{
+			"path": "pages/schedule/schedule",
+			"style": {
+				"navigationBarTitleText": "固定日程"
+			}
+		}
+		,
+		{
+			"path": "pages/schedule/form",
+			"style": {
+				"navigationBarTitleText": "新建固定日程"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#409EFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/icon_home.svg",
+			"selectedIconPath": "static/icon_home_active.svg",
+			"text": "今日日程"
+		}, {
+			"pagePath": "pages/tasks/tasks",
+			"iconPath": "static/icon_task.svg",
+			"selectedIconPath": "static/icon_task_active.svg",
+			"text": "待办清单"
+		}, {
+			"pagePath": "pages/schedule/schedule",
+			"iconPath": "static/icon_schedule.svg",
+			"selectedIconPath": "static/icon_schedule_active.svg",
+			"text": "固定日程"
+		}]
+	}
+}
